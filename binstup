@@ -1035,4 +1035,89 @@ no changes added to commit (use "git add" and/or "git commit -a")
 :[K[K[32m+[m[32m#[m[41m[7m^M[27m[m[m
 :[K[K[32m+[m[32m# Date:      Wed Feb 22 13:16:30 2017 -0300[m[41m[7m^M[27m[m[m
 :[K[K[32m+[m[32m#[m[41m[7m^M[27m[m[m
-:[K
+:[K[K[32m+[m[32m# On branch [m[35mmaster[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m# [m[35mChanges to be committed:[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mmodified[m[34m: [m[31m  app/controllers/books_controller.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mnew file[m[34m: [m[31m  binstup[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mmodified[m[34m: [m[31m  config/routes.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mrenamed[m[34m: [m[31m   db/migrate/20170221192835_create_books.rb[m[34m -> [m[31mdb/migrate/2017022[m :[K[K[32m[m[32m[34m[m[32m[m[34m[m[31m[m[34m[m[31m22154802_create_books.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mmodified[m[34m: [m[31m  db/schema.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mmodified[m[34m: [m[31m  db/seeds.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#       [m[32mmodified[m[34m: [m[31m  test/integration/listing_books_test.rb[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m#[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[1m[34m~                                                                                  [m :[K[K[32m[m[32m[1m[34m ~                                                                                  [m :[K[K[32m[m[32m[1m[34m ~[m[41m                                                            [m[m
+:[K[K\ No newline at end of file[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   binstup[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m1m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m1m[00m [32m✚  [01;31m[00m[1B[81D[?1h=[?2004hgit add .[9Dgs       git diff binstup[16Dgs              [14Dgit commit --amend d[1m [0m[0m [?1l>[?2004l
+]2;git commit --amend]1;git[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"~/study/APIReadingList/.git/COMMIT_EDITMSG" 17L, 572C[>c[1;1H[33mList books with rating filter[m
+
+[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 22 13:16:30 2017 -0300
+#
+# On branch [m[35mmaster[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  app/controllers/books_controller.rb[m
+[34m#       [m[32mnew file[m[34m: [m[31m  binstup[m
+[34m#       [m[32mmodified[m[34m: [m[31m  config/routes.rb[m
+[34m#       [m[32mrenamed[m[34m: [m[31m   db/migrate/20170221192835_create_books.rb[m[34m -> [m[31mdb/migrate/201702222[14;1H154802_create_books.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  db/schema.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  db/seeds.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  test/integration/listing_books_test.rb[m
+[34m#[m
+[1m[34m~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [m[23;67H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[23;1H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 17L, 572C written
+[?1l>[?12l[?25h[?1049l[master 6e1cbc7] List books with rating filter
+ Date: Wed Feb 22 13:16:30 2017 -0300
+ 7 files changed, 1061 insertions(+), 13 deletions(-)
+ create mode 100644 binstup
+ rename db/migrate/{20170221192835_create_books.rb => 20170222154802_create_books.rb} (85%)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m1m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   binstup[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m1m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hgsgit commit --amend[14Dadd .         [9D[9Dgs       git diff binstup[16Dgs              [14Dgit commit --amend[18Dgs                [16Dgit add .[9Dgs       git commit -m "List books with rating filter"[41Dadd .                                    [36D[9Dgs       ./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 32685
+Run options: --seed 64377
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.347191s, 5.7605 runs/s, 17.2816 assertions/s.
+
+2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[72C[1A[37m1h35m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   binstup[m
+	[31mmodified:   test/integratio

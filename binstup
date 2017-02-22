@@ -1,0 +1,1038 @@
+Script started on Qua 22 Fev 2017 11:34:20 BRT
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h1m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hbundle exec script binstup p 
+[34;40mapp[0m/          [34;40mconfig[0m/       Gemfile       [34;40mlog[0m/          README.md     [34;40mvendor[0m/     
+[34;40mbin[0m/          config.ru     Gemfile.lock  [34;40mpublic[0m/       [34;40mtest[0m/                     
+[Jbinstup       [J[34;40mdb[0m/           [J[34;40mlib[0m/          [JRakefile      [J[34;40mtmp[0m/          [J            [3A[0m[27m[24m[2Cbundle exec script binstup[K[44C[1A[37m19h1m[00m [33m⚑ [37m◒  [01;31m[00m[1B[54Da -all[?1l>[?2004l
+[J]2;bundle exec script binstup -all]1;bundlescript: invalid option -- 'l'
+
+Usage:
+ script [options] [file]
+
+Make a typescript of a terminal session.
+
+Options:
+ -a, --append            append the output
+ -c, --command <command> run command rather than interactive shell
+ -e, --return            return exit code of the child process
+ -f, --flush             run flush after each write
+     --force             use output file even when it is a link
+ -q, --quiet             be quiet
+ -t, --timing[=<file>]   output timing data to stderr (or to FILE)
+ -V, --version           output version information and exit
+ -h, --help              display this help and exit
+
+
+For more details see script(1).
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m19h1m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hbundle exec script binstup -allt binstup -all [15Dt binstup -all [15D binstup -all [14D binstup -all [14D binstup -all [14Dp binstup -all[13Dr binstup -all[13Di binstup -all[13Dn binstup -all[13Dg binstup -all[13D[?1l>[?2004l
+]2;bundle exec spring binstup -all]1;bundleVersion: 2.0.1
+
+Usage: spring COMMAND [ARGS]
+
+Commands for spring itself:
+
+  binstub         Generate spring based binstubs. Use --all to generate a binstub for all known commands. Use --remove to revert.
+  help            Print available commands.
+  server          Explicitly start a Spring server in the foreground
+  status          Show current status.
+  stop            Stop all spring processes for this project.
+
+Commands for your application:
+
+  rails           Run a rails command. The following sub commands will use spring: console, runner, generate, destroy, test.
+  rake            Runs the rake command
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h1m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hbundle exec spring binstup -all-all[?1l>[?2004l
+]2;bundle exec spring binstup --all]1;bundleVersion: 2.0.1
+
+Usage: spring COMMAND [ARGS]
+
+Commands for spring itself:
+
+  binstub         Generate spring based binstubs. Use --all to generate a binstub for all known commands. Use --remove to revert.
+  help            Print available commands.
+  server          Explicitly start a Spring server in the foreground
+  status          Show current status.
+  stop            Stop all spring processes for this project.
+
+Commands for your application:
+
+  rails           Run a rails command. The following sub commands will use spring: console, runner, generate, destroy, test.
+  rake            Runs the rake command
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h1m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hbundle exec spring binstup --all --all b --all[?1l>[?2004l
+]2;bundle exec spring binstub --all]1;bundle* bin/rake: spring already present
+* bin/rails: spring already present
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h2m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h[H[2J[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h2m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81Dlls bin[?1l>[?2004l
+]2;ls --color=tty bin]1;ls[0m[31;40mbundle[0m  [31;40mrails[0m  [31;40mrake[0m  [31;40msetup[0m  [31;40mspring[0m  [31;40mupdate[0m
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h2m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h../bin[1m/[0m[0m/rake[1m [0m[0m routes[?1l>[?2004l
+]2;./bin/rake routes]1;./bin/rakeRunning via Spring preloader in process 20459
+   Prefix Verb   URI Pattern               Controller#Action
+    books GET    /books(.:format)          books#index
+          POST   /books(.:format)          books#create
+ new_book GET    /books/new(.:format)      books#new
+edit_book GET    /books/:id/edit(.:format) books#edit
+     book GET    /books/:id(.:format)      books#show
+          PATCH  /books/:id(.:format)      books#update
+          PUT    /books/:id(.:format)      books#update
+          DELETE /books/:id(.:format)      books#destroy
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h3m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake routes[?1l>[?2004l
+]2;./bin/rake routes]1;./bin/rakeRunning via Spring preloader in process 20591
+Prefix Verb URI Pattern      Controller#Action
+ books GET  /books(.:format) books#index
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m19h4m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrrakde  e   r  ../bin[1m/[0m[0m/ra
+[J[31;40mrails[0m*  [J[31;40mrake[0m* [J[A[0m[27m[24m[2C./bin/ra[K[62C[1A[37m19h4m[00m [33m⚑ [37m◒  [01;31m[00m[1B[73Dke[1m [0m[0m [?1l>[?2004l
+[J]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 23206
+Run options: --seed 7068
+
+# Running:
+
+[38;5;154m.[0m[41m[37mF[0m
+
+Failure:
+ListingBooksTest#test_listing_top_rated_books [/home/felipesoares/study/APIReadingList/test/integration/listing_books_test.rb:24]:
+Expected: 1
+  Actual: 2
+
+bin/rails test test/integration/listing_books_test.rb:18
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.611048s, 3.2731 runs/s, 9.8192 assertions/s.
+
+2 runs, 6 assertions, 1 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h0m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 23329
+Run options: --seed 20757
+
+# Running:
+
+[38;5;154m.[0m[41m[37mF[0m
+
+Failure:
+ListingBooksTest#test_listing_top_rated_books [/home/felipesoares/study/APIReadingList/test/integration/listing_books_test.rb:24]:
+Expected: 1
+  Actual: 2
+
+bin/rails test test/integration/listing_books_test.rb:18
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.388874s, 5.1431 runs/s, 15.4292 assertions/s.
+
+2 runs, 6 assertions, 1 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h1m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 23667
+Run options: --seed 48506
+
+# Running:
+
+[38;5;154m.[0m[41m[37mE[0m
+
+Error:
+ListingBooksTest#test_listing_top_rated_books:
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column: books.rating: SELECT "books".* FROM "books" WHERE "books"."rating" = ?
+    app/controllers/books_controller.rb:9:in `index'
+    test/integration/listing_books_test.rb:19:in `block in <class:ListingBooksTest>'
+
+bin/rails test test/integration/listing_books_test.rb:18
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.385164s, 5.1926 runs/s, 7.7889 assertions/s.
+
+2 runs, 3 assertions, 0 failures, 1 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h4m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake routes[17Dls bin           [11Dbundle exec spring binstub --allp[6Call [18Dc[2Cpt[13C     --all[32Dll                              [30Drake routes[11Dcurl -I http://localhost:3000/books[30Dhttp://localhost:3000/books   [32Drails s                         [25Dke db:seed[12Drvm use 2.3.1[13Drake db:seed [?1l>[?2004l
+]2;rake db:seed]1;db:seedrake aborted!
+ActiveModel::UnknownAttributeError: unknown attribute 'rating' for Book.
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:48:in `_assign_attribute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:40:in `block in _assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:39:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:39:in `_assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/attribute_assignment.rb:26:in `_assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:33:in `assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/core.rb:319:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/inheritance.rb:65:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/inheritance.rb:65:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/persistence.rb:50:in `create!'
+/home/felipesoares/study/APIReadingList/db/seeds.rb:1:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `block in load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/engine.rb:549:in `load_seed'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:268:in `load_seed'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:196:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h5m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrake db:seed[12D./bin/rake   routes[17Dls bin           [11Dbundle exec spring binstub --all[32Dls bin                          [26D./bin/rake routes[?1l>[?2004l
+]2;./bin/rake routes]1;./bin/rakeRunning via Spring preloader in process 24477
+Prefix Verb URI Pattern      Controller#Action
+ books GET  /books(.:format) books#index
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m20h9m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake routes[17Drake db:seed     [12D./bin/rake   routes      [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 24548
+Run options: --seed 53765
+
+# Running:
+
+[41m[37mE[0m
+
+Error:
+ListingBooksTest#test_listing_books:
+ActiveModel::UnknownAttributeError: unknown attribute 'rating' for Book.
+    test/integration/listing_books_test.rb:5:in `block in <class:ListingBooksTest>'
+
+bin/rails test test/integration/listing_books_test.rb:9
+
+[41m[37mE[0m
+
+Error:
+ListingBooksTest#test_listing_top_rated_books:
+ActiveModel::UnknownAttributeError: unknown attribute 'rating' for Book.
+    test/integration/listing_books_test.rb:5:in `block in <class:ListingBooksTest>'
+
+bin/rails test test/integration/listing_books_test.rb:18
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.282762s, 7.0731 runs/s, 0.0000 assertions/s.
+
+2 runs, 0 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h9m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake routes[17Drake db:seed     [12D./bin/rake  [10Drake db:seed[?1l>[?2004l
+]2;rake db:seed]1;db:seedrake aborted!
+ActiveModel::UnknownAttributeError: unknown attribute 'rating' for Book.
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:48:in `_assign_attribute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:40:in `block in _assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:39:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:39:in `_assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/attribute_assignment.rb:26:in `_assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activemodel-5.0.1/lib/active_model/attribute_assignment.rb:33:in `assign_attributes'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/core.rb:319:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/inheritance.rb:65:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/inheritance.rb:65:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/persistence.rb:50:in `create!'
+/home/felipesoares/study/APIReadingList/db/seeds.rb:1:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `block in load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:259:in `load_dependency'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/dependencies.rb:287:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/engine.rb:549:in `load_seed'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:268:in `load_seed'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:196:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/rake-12.0.0/exe/rake:27:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => db:seed
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[68C[1A[37m20h10m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrake db:seed[12D./bin/rake   routes[17Drake db:seed     [12D./bin/rake   routes[17Dls bin           [11Dbundle exec spring binstub --allp[6Call [18Dc[2Cpt[13C     --all[32Dll                              [30Drake routes[11Dcurl -I http://localhost:3000/books[30Dhttp://localhost:3000/books   [32Drails s                         [25Dke db:seed[12Drvm use 2.3.1[13Drake db:seed [12Dcurl -I https://api.github.com[25Dhttps://api.github.com    | less[29D-I https://github.api.com    [25Dhttps://github.api.com    | less[34Dstudy/APIReadingList              [14D[20Datom .              [14DAPIReadingList[14Dll            [12Dl.. npm startinstall nodemon -g [19Dstart             [13D[9Dgs       npm install nodemon --save-dev[26Dstart                     [21Dinstall nodemon -g [19Drun start         [9D[13Dcat package.json[16Dnpm start       [9Dcat package.json[16Dnpm i -D mongodb mongoose[21Dstart                [16D[9Dcat package.json[16Dnpm i -D body-parser[20Dcat package.json    [16Dapp             [13Dcat pack[8Dnpm i -D body-parser[11Dn[2Cemon    [16Dcat package.js[2C[16Dnpm i -D babel-cli babel-preset-es2015[38Dll                                    [36Dmv index.js app/[16Dmkdir app       [9Dcat package.json[16Dnpm install --save-dev consign[30Dgs                            [28Dgit init[8Datom .  vim . cat package.json[16Dnpm install --save-dev express[30Dcat package.json              [14D[16Dll              [14Dnpm init [9DAPINode mkdir APINode[13Dll           [11Dstudyll   git commit -m "Add books listing"[29Dadd .                        [24D. [8Drake     db:migrate[13Dils g model book title raiting:integer --no-fixtureting:integer --no-fixture [26D[?1l>[?2004l
+]2;rails g model book title rating:integer --no-fixture]1;railsRunning via Spring preloader in process 24934
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[31m    conflict[0m    db/migrate/20170222154717_create_books.rb
+Another migration is already named create_books: /home/felipesoares/study/APIReadingList/db/migrate/20170221192835_create_books.rb. Use --force to replace this migration or --skip to ignore conflicted file.
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h14m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrails g model book title rating:integer --no-fixture --force[?1l>[?2004l
+]2;rails g model book title rating:integer --no-fixture --force]1;railsRunning via Spring preloader in process 25021
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      remove[0m    db/migrate/20170221192835_create_books.rb
+[1m[32m      create[0m    db/migrate/20170222154802_create_books.rb
+[1m[34m   identical[0m    app/models/book.rb
+[1m[37m      invoke[0m    test_unit
+[1m[34m   identical[0m      test/models/book_test.rb
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h15m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrails g model book title rating:integer --no-fixture --force       [8D[50Dke db:seed                                        [40D[12D./bin/rake  [10Drake db:seed[?1l>[?2004l
+]2;rake db:seed]1;db:seedYou have 1 pending migration:
+  20170222154802 CreateBooks
+Run `rails db:migrate` to update your database then try again.
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h17m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrrails db :migrate[?1l>[?2004l
+]2;rails db:migrate]1;rails== 20170222154802 CreateBooks: migrating ======================================
+-- create_table(:books)
+rails aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+SQLite3::SQLException: table "books" already exists
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h18m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrails db:migrate[14Dke db:seed    [10Dils g model book title rating:integer --no-fixture --force[58Dke db:seed                                                [48D[10Dils g model book title rating:integer --no-fixture --force[58Dke db:seed                                                [48D[10Dils db:migrate             r  rake db:rollback STEP=1[?1l>[?2004l
+]2;rake db:rollback STEP=1]1;db:rollback[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h19m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrake db:rollback STEP=1[21Dils db:migrate       [?1l>[?2004l
+]2;rails db:migrate]1;rails== 20170222154802 CreateBooks: migrating ======================================
+-- create_table(:books)
+rails aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+SQLite3::SQLException: table "books" already exists
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h19m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrails db:migrate[14Dke db:rollback STEP=1[21Dils db:migrate       [14Dke db:seed    [10Dils g model book title rating:integer --no-fixture --force       [8D --force                                                   r  rails g model book title rating:integer --no-fixture[50Dke db:seed                                        [40D[10Dils g model book title rating:integer --no-fixture[1C -focer   rce                                                  r  rake db:seed[12D./bin/rake   routes[17Drake db:seed     [12D./bin/rake  [10Drake db:seed[?1l>[?2004l
+]2;rake db:seed]1;db:seedYou have 1 pending migration:
+  20170222154802 CreateBooks
+Run `rails db:migrate` to update your database then try again.
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h20m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrrails db:migrate[?1l>[?2004l
+]2;rails db:migrate]1;rails== 20170222154802 CreateBooks: migrating ======================================
+-- create_table(:books)
+rails aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table "books" already exists: CREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+SQLite3::SQLException: table "books" already exists
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `initialize'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `new'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:91:in `prepare'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/sqlite3-1.3.13/lib/sqlite3/database.rb:137:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `block in execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:589:in `block in log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activesupport-5.0.1/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract_adapter.rb:583:in `log'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/sqlite3_adapter.rb:232:in `execute'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/schema_statements.rb:278:in `create_table'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:846:in `block in method_missing'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `block in say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:815:in `say_with_time'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:835:in `method_missing'
+/home/felipesoares/study/APIReadingList/db/migrate/20170222154802_create_books.rb:3:in `change'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:789:in `exec_migration'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:773:in `block (2 levels) in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:772:in `block in migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:398:in `with_connection'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:771:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:951:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1212:in `block in execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `block in ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `block in transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/transaction.rb:189:in `within_new_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/connection_adapters/abstract/database_statements.rb:232:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/transactions.rb:211:in `transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1280:in `ddl_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1211:in `execute_migration_in_transaction'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1184:in `block in migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `each'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1183:in `migrate_without_lock'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1134:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:1006:in `up'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/migration.rb:984:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/tasks/database_tasks.rb:161:in `migrate'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/activerecord-5.0.1/lib/active_record/railties/databases.rake:58:in `block (2 levels) in <top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:14:in `block in run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/rake_proxy.rb:11:in `run_rake_task'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:51:in `run_command!'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `require'
+/home/felipesoares/study/APIReadingList/bin/rails:9:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+/home/felipesoares/.rvm/gems/ruby-2.3.1/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `require'
+/home/felipesoares/study/APIReadingList/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h20m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrails db:migrate[16D                [16Drails db:migrate[14Dke db:seed    [10Dils db:migrate[14Dke db:rollback STEP=1[21Dils db:migrate       [14Dke db:rollback STEP=1                   r  [A[A[0m[27m[24m[Jx�hdl[K[63C[1A[37m20h20m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[78D[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h21m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[77C`�q[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h21m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81Drrake db:drop [?1l>[?2004l
+]2;rake db:drop]1;db:dropDropped database 'db/development.sqlite3'
+Dropped database 'db/test.sqlite3'
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h21m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrrea ke   r rake db:create [?1l>[?2004l
+]2;rake db:create]1;db:createCreated database 'db/development.sqlite3'
+Created database 'db/test.sqlite3'
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h22m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrrake bd  bd:mig      dB b:migrate [?1l>[?2004l
+]2;rake db:migrate]1;db:migrate== 20170222154802 CreateBooks: migrating ======================================
+-- create_table(:books)
+   -> 0.0013s
+== 20170222154802 CreateBooks: migrated (0.0014s) =============================
+
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h22m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hbbkb  rrake a e db:sa eed[?1l>[?2004l
+]2;rake db:seed]1;db:seed[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h22m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hn rrake  r  //n/  ../bin[1m/[0m[0m/rake[1m [0m[0m [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 26490
+Run options: --seed 3147
+
+# Running:
+
+[41m[37mF[0m
+
+Failure:
+ListingBooksTest#test_listing_top_rated_books [/home/felipesoares/study/APIReadingList/test/integration/listing_books_test.rb:24]:
+Expected: 1
+  Actual: 2
+
+bin/rails test test/integration/listing_books_test.rb:18
+
+[38;5;154m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.343273s, 5.8263 runs/s, 17.4788 assertions/s.
+
+2 runs, 6 assertions, 1 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[66C[1A[37m20h22m[00m [31m✖ [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 26657
+Run options: --seed 57560
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.345903s, 5.7820 runs/s, 17.3459 assertions/s.
+
+2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h23m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 26743
+Run options: --seed 18203
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.332364s, 6.0175 runs/s, 18.0525 assertions/s.
+
+2 runs, 6 assertions, 0 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h23m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake[10Drake db:seedmigrate [8Dcreate drop  [10Dils db:migrate[14Dke db:seed    [10Dils db:migrate[14Dke db:rollback STEP=1[21Dils db:migrate       [14Dke db:seed    [10Dils g model book title rating:integer --no-fixture --force       [8D[50Dke db:seed                                        [40D[10Dils g model book title rating:integer --no-fixture[50Dke db:seed                                        [40D[10Dils g model book title rating:integer --no-fixture                                            r  ggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/controllers/books_controller.rb[m
+	[31mmodified:   config/routes.rb[m
+	[31mdeleted:    db/migrate/20170221192835_create_books.rb[m
+	[31mmodified:   db/schema.rb[m
+	[31mmodified:   db/seeds.rb[m
+	[31mmodified:   test/integration/listing_books_test.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mbinstup[m
+	[31mdb/migrate/20170222154802_create_books.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[67C[1A[37m20h42m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m20h43m[00m [34m▴ [32m✚  [01;31m[00m[1B[81D[?1h=[?2004hggit add .    c commit -m ""L"i"s"t" "b"o"o"k"s" "f"" w"i"t"h" "r"a"t"i"n"g" "f"i"l"t"e"r"[?1l>[?2004l
+]2;git commit -m "List books with rating filter"]1;git[master 66534f4] List books with rating filter
+ 7 files changed, 888 insertions(+), 13 deletions(-)
+ create mode 100644 binstup
+ rename db/migrate/{20170221192835_create_books.rb => 20170222154802_create_books.rb} (85%)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hs s ggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   binstup[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hgsgit commit -m "List books with rating filter"[41Dadd .                                    [36D[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [32m✚  [01;31m[00m[1B[81D[?1h=[?2004hggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   binstup[m
+
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [32m✚  [01;31m[00m[1B[81D[?1h=[?2004hggit mm  amm   --am    coo mmit --amend[1m [0m[0m [?1l>[?2004l
+]2;git commit --amend]1;git[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H]11;?[1;23r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[23;1H"~/study/APIReadingList/.git/COMMIT_EDITMSG" 17L, 572C[>c[1;1H[33mList books with rating filter[m
+
+[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Feb 22 13:16:30 2017 -0300
+#
+# On branch [m[35mmaster[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m: [m[31m  app/controllers/books_controller.rb[m
+[34m#       [m[32mnew file[m[34m: [m[31m  binstup[m
+[34m#       [m[32mmodified[m[34m: [m[31m  config/routes.rb[m
+[34m#       [m[32mrenamed[m[34m: [m[31m   db/migrate/20170221192835_create_books.rb[m[34m -> [m[31mdb/migrate/201702222[14;1H154802_create_books.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  db/schema.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  db/seeds.rb[m
+[34m#       [m[32mmodified[m[34m: [m[31m  test/integration/listing_books_test.rb[m
+[34m#[m
+[1m[34m~                                                                                   [20;1H~                                                                                   [21;1H~                                                                                   [22;1H~                                                                                   [m[23;67H1,1[11CAll[1;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[23;1H[K[23;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l".git/COMMIT_EDITMSG" 17L, 572C written
+[?1l>[?12l[?25h[?1049l[master f99f964] List books with rating filter
+ Date: Wed Feb 22 13:16:30 2017 -0300
+ 7 files changed, 940 insertions(+), 13 deletions(-)
+ create mode 100644 binstup
+ rename db/migrate/{20170221192835_create_books.rb => 20170222154802_create_books.rb} (85%)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggs[?1l>[?2004l
+]2;git status]1;gsOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   binstup[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m0m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[74C[1A[37m0m[00m [33m⚑  [01;31m⍉[00m[1B[81D[?1h=[?2004hddig d  ggit diff binstup[?1l>[?2004l
+]2;git diff binstup]1;git[?1049h[?1h=[1mdiff --git a/binstup b/binstup[m[m
+[1mindex 208ae6b..2a48bea 100644[m[m
+[1m--- a/binstup[m[m
+[1m+++ b/binstup[m[m
+[36m@@ -914,4 +914,53 @@[m [mno changes added to commit (use "git add" and/or "git commit -a[m [36m[m[m")[m[m
+ [01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m [m[m
+ [37m▶ [37m20h42m[00m [31m✖ [33m⚑ [37m◒  [01;31m[00m[1mg[0mit add .[7m^M[27m[m[m
+ 2;git add .[7m^G[27m1;git[7m^G[27m[1m[7m%[27m[1m[0m                                                              [m [1m[7m[27m[1m[0m                     [7m^M[27m [7m^M[27m2;felipesoares@felipesoares: ~/study/APIReadingList[7m^G[27m1;..P[m [1m[7m[27m[1m[0mIReadingList[7m^G^M[27m[0m[27m[24m[m[m
+[31m-[01;34m~/study/APIReadingList[00m  [32mmaste[m[m
+\ No newline at end of file[m[m
+[32m+[m[32m[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m[m[41m [7m^M[27m[m[m
+[32m+[m[32m[37m▶ [37m20h43m[00m [34m▴ [32m✚  [01;31m[00m[1mg[0mit commit -m "List books with rating filter[m[41m[7m^M[27m[m[m
+[32m+[m[32m2;git commit -m "List books with rating filter"[7m^G[27m1;git[7m^G[27m[master 66534f4] List books[m [32m[m[32m with rating filter[m[41m[7m^M[27m[m[m
+[32m+[m[32m 7 files changed, 888 insertions(+), 13 deletions(-)[m[41m[7m^M[27m[m[m
+[32m+[m[32m create mode 100644 binstup[m[41m[7m^M[27m[m[m
+[32m+[m[32m rename db/migrate/{20170221192835_create_books.rb => 20170222154802_create_books.r[m [32m[m[32mb} (85%)[m[41m[7m^M[27m[m[m
+[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                  [m :[K[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m2;felipesoares@felipesoares: ~/study/APIReadingList[7m^G[27m1;..PIReadingList[7m^G^M[27m[0m[27m[24m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m[m[41m [7m^M[27m[m[m
+:[K[K[32m+[m[32m[37m▶ [37m0m[00m [33m⚑  [01;31m[00m[1mg[0ms[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m2;git status[7m^G[27m1;gs[7m^G[27mOn branch master[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mChanges not staged for commit:[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  (use "git add <file>..." to update what will be committed)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  (use "git checkout -- <file>..." to discard changes in working directory)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[31mmodified:   binstup[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mno changes added to commit (use "git add" and/or "git commit -a")[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                  [m :[K[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m2;felipesoares@felipesoares: ~/study/APIReadingList[7m^G[27m1;..PIReadingList[7m^G^M[27m[0m[27m[24m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m[m[41m [7m^M[27m[m[m
+:[K[K[32m+[m[32m[37m▶ [37m0m[00m [33m⚑  [01;31m[00m[1mg[0mit commit -m "List books with rating filter"add .                         [m :[K[K[32m[m[32m[37m[37m[00m[33m[01;31m[00m           [m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m2;git add .[7m^G[27m1;git[7m^G[27m[1m[7m%[27m[1m[0m                                                              [m :[K[K[32m[m[32m[1m[7m[27m[1m[0m                     [7m^M[27m [7m^M[27m2;felipesoares@felipesoares: ~/study/APIReadingList[7m^G[27m1;..P[m :[K[K[32m[m[32m[1m[7m[27m[1m[0mIReadingList[7m^G^M[27m[0m[27m[24m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m[m[41m [7m^M[27m[m[m
+:[K[K[32m+[m[32m[37m▶ [37m0m[00m [32m✚  [01;31m[00m[1mg[0ms[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m2;git status[7m^G[27m1;gs[7m^G[27mOn branch master[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32mChanges to be committed:[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m  (use "git reset HEAD <file>..." to unstage)[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m       [32m[32mmodified:   binstup[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[1m[7m%[27m[1m[0m                                                                                  [m :[K[K[32m[m[32m[1m[7m[27m[1m[0m [7m^M[27m [7m^M[27m2;felipesoares@felipesoares: ~/study/APIReadingList[7m^G[27m1;..PIReadingList[7m^G^M[27m[0m[27m[24m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m[m[41m [7m^M[27m[m[m
+:[K[K[32m+[m[32m[37m▶ [37m0m[00m [32m✚  [01;31m[00m[1mg[0mit amm[7m^G^H^H[27m [7m^H^H[27m--am[7m^G^H^H[27m [7m^H^H^H[27m [7m^H[27mcommit --amend[1m [0m[7m^H[27m[0m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m2;git commit --amend[7m^G[27m1;git[7m^G[27m▽  11;?[7m^G[27m[27m[23m[m"~/study/APIReadingList/.git/COMMIT_EDITMSG" [m :[K[K[32m[m[32m[27m[23m[m17L, 572Cc[33mList books with rating filter[m[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m[34m# Please enter the commit message for your changes. Lines starting[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# with '#' will be ignored, and an empty message aborts the commit.[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m#[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m# Date:      Wed Feb 22 13:16:30 2017 -0300[m[41m[7m^M[27m[m[m
+:[K[K[32m+[m[32m#[m[41m[7m^M[27m[m[m
+:[K

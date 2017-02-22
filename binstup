@@ -1120,4 +1120,525 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	[31mmodified:   binstup[m
-	[31mmodified:   test/integratio
+	[31mmodified:   test/integration/listing_books_test.rb[m
+	[31mmodified:   test/test_helper.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[72C[1A[37m1h36m[00m [33m⚑  [01;31m[00m[1B[81D[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[72C[1A[37m1h36m[00m [32m✚  [01;31m[00m[1B[81D[?1h=[?2004hggit commit -m ""E"x"t"r"a"c"t" "j"s"o"n" "h"" m"e"t"h"o"d" "h"e"l"p"e"r"" " " " " " " " " " " " " h"e"l"p"e"r" "m"e"t"h"o"d"[?1l>[?2004l
+]2;git commit -m "Extract json helper method"]1;git[master 59c09c0] Extract json helper method
+ 3 files changed, 92 insertions(+), 3 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [32m✔[00m[00m 
+[37m▶ [K[77C[1A[37m0m[00m  [01;31m[00m[1B[81D[?1h=[?2004hrrails in  g integration test listing_finished-boo    _books[1Ctest listing_finished_books [28D_test listing_finished_books[27D[?1l>[?2004l
+]2;rails g integration_test listing_finished_books]1;railsRunning via Spring preloader in process 635
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  test_unit
+[1m[32m      create[0m    test/integration/listing_finished_books_test.rb
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[75C[1A[37m2m[00m [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h[A[A[0m[27m[24m[J�u[K[75C[1A[37m2m[00m [37m◒  [01;31m[00m[1B[81D[0m[27m[24m[Jx�hdl[K[72C[1A[37m2m[00m [37m◒  [01;31m[00m[1B[78D[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[77CP.q[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[77CP.q[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[73C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[81D[A[A[0m[27m[24m[Jx�hdl[K[70C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[78D[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[79C�Y[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[73C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[76Cx�hdl[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[73C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[81D[A[A[0m[27m[24m[J�u[K[73C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[81D[0m[27m[24m[Jx�hdl[K[70C[1A[37m1h2m[00m [37m◒  [01;31m[00m[1B[78D[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[73C[1A[37m1h8m[00m [37m◒  [01;31m[00m[1B[81D[A[A[0m[27m[24m[J�4q[K[72C[1A[37m1h8m[00m [37m◒  [01;31m[00m[1B[80D[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[76Cx�hdl[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[79C�Y[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[71C[1A[37m1h8m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[76Cx�hdl[81D[A[A[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[71C[1A[37m1h8m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81Drails g integration_test listing_finished_books[47Dgit commit -m "Extract json helper method"     [38Dadd .                                 [33D[9Dgs       ./bin/rake[10Dgs        [8D./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 15130
+Run options: --seed 1299
+
+# Running:
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:5)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+ActionController::RoutingError: No route matches [GET] "/finished_books"
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:4
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:12)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+ActionController::RoutingError: No route matches [GET] "/finished_books"
+    test/integration/listing_finished_books_test.rb:12:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:11
+
+[38;5;198m.[0m[38;5;199m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.804132s, 4.9743 runs/s, 7.4615 assertions/s.
+
+4 runs, 6 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h22m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 15761
+Run options: --seed 18730
+
+# Running:
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:5)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+NameError: undefined local variable or method `books' for #<FinishedBooksController:0x00000003bb65e0>
+Did you mean?  book
+    app/controllers/finished_books_controller.rb:5:in `index'
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:4
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:12)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+NameError: undefined local variable or method `books' for #<FinishedBooksController:0x000000056921c0>
+Did you mean?  book
+    app/controllers/finished_books_controller.rb:5:in `index'
+    test/integration/listing_finished_books_test.rb:12:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:11
+
+[38;5;198m.[0m[38;5;199m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 1.083775s, 3.6908 runs/s, 5.5362 assertions/s.
+
+4 runs, 6 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h26m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h27m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[H[2J[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h27m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D./bin/rake[?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 16069
+Run options: --seed 51373
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0mDEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:5)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+NameError: undefined local variable or method `books' for #<FinishedBooksController:0x0000000527de90>
+Did you mean?  book
+    app/controllers/finished_books_controller.rb:6:in `block (2 levels) in index'
+    app/controllers/finished_books_controller.rb:5:in `index'
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:4
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:12)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+NameError: undefined local variable or method `books' for #<FinishedBooksController:0x00000005379b00>
+Did you mean?  book
+    app/controllers/finished_books_controller.rb:7:in `block (2 levels) in index'
+    app/controllers/finished_books_controller.rb:5:in `index'
+    test/integration/listing_finished_books_test.rb:12:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:11
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.471444s, 8.4846 runs/s, 12.7269 assertions/s.
+
+4 runs, 6 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h27m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[H[2J[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D//.install.sh[12D/home/felipesoares/Android/Sdks[2C                            /  llusersll   ..atom local.properties[21Dll                   [19Dandroidll     atom local.properties[21D..                   [19Dllusersll   react-native run-android[24D..                      [22D/home/felipesoares/Android/Sdk[30D../..                         [25Dreact-native run-android[24Djava.io.IOException: Cannot run program "/home/felipesoares/Android/Sdk/build-tools/23.0.1/aapt": error=2, No such file or directory[K[A[48Dsudo apt-get install ia32-libs[K[39C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[1B[K[A[32C[9Dlib32stdc++6 lib32z1[41Dreact-native run-android                 [17D[24Dsudo pacman -Syv lib32-libstdc++5 lib32-zlib[39Dapt-get install lib32-libstdc++5 lib32-zlib[27Dgcc-multilib lib32z1 lib32stdc++6[54Dreact-native run-android                              [30D[24Dsudo apt-get install libstdc++6:i386 libgcc1:i386 zlib1g:i386 libncurses5:i386[K[53Ddl1.2debian:i386[K[28C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[40D[41Dreact-native run-android                 [17D[24Dll                      [22Dstudy/react[11Dll         [9DAwesomeProject[14DLL            [12Dllandroidcd android/[11Dll         [9Dcat local.properties[20D..                  [18Dnautilus /home/felipesoares/Android/Sdk[39Dandroid                                [32Dreact-native run-android[24Dll                      [22D..felipesoares[12Dll          [10DAndroidll     ..lll  ../bi  bin[1m/[0m[0m/ra[1B[J[31;40mrails[0m*  [J[31;40mrake[0m* [J[A[0m[27m[24m[2C./bin/ra[K[61C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[73Dils
+[J[7mrails*[0m  [J[31;40mrake[0m* [J[A[0m[27m[24m[2C./bin/rails[K[58C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[70D
+[7mrails*[0m  [7mrails*[0m  [A[0m[27m[24m[2C./bin/rails[K[58C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[70Dke 
+[8C[7mrake* [0m[31;40mrails[0m*  [A[0m[27m[24m[2C./bin/rake[K[59C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[71D
+[J[A[12C[1m [0m[0m [?1l>[?2004l
+[J]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 16242
+Run options: --seed 14857
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0mDEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:12)
+[38;5;148m.[0mDEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:5)
+[38;5;184m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.514639s, 7.7724 runs/s, 19.4311 assertions/s.
+
+4 runs, 10 assertions, 0 failures, 0 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m2h28m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 17530
+Run options: --seed 69
+
+# Running:
+
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+ActiveModel::UnknownAttributeError: unknown attribute 'finished_at' for Book.
+    test/integration/listing_finished_books_test.rb:5:in `setup'
+
+bin/rails test test/integration/listing_finished_books_test.rb:18
+
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+ActiveModel::UnknownAttributeError: unknown attribute 'finished_at' for Book.
+    test/integration/listing_finished_books_test.rb:5:in `setup'
+
+bin/rails test test/integration/listing_finished_books_test.rb:9
+
+[38;5;198m.[0m[38;5;199m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.387873s, 10.3126 runs/s, 15.4690 assertions/s.
+
+4 runs, 6 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h42m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 17762
+Run options: --seed 57078
+
+# Running:
+
+[38;5;154m.[0m[38;5;154m.[0m[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+ActiveModel::UnknownAttributeError: unknown attribute 'finished_at' for Book.
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:9
+
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+ActiveModel::UnknownAttributeError: unknown attribute 'finished_at' for Book.
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:18
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.397970s, 10.0510 runs/s, 15.0765 assertions/s.
+
+4 runs, 6 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h44m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004hrrails g migration add finished_at to booksbooks _booksto_books [9D_to_books[8D[1C[1C[1C[1C[1C[1C[1C[1C finished _at:datetime[?1l>[?2004l
+]2;rails g migration add finished_at_to_books finished_at:datetime]1;railsRunning via Spring preloader in process 18069
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170222204118_add.rb
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m2h48m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004hrails g migration add finished_at_to_books finished_at:datetimefinished_at_to_books finished_at:datetime [42D_finished_at_to_books finished_at:datetime[41D[?1l>[?2004l
+]2;rails g migration add_finished_at_to_books finished_at:datetime]1;railsRunning via Spring preloader in process 18387
+Expected string default value for '--jbuilder'; got true (boolean)
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20170222204319_add_finished_at_to_books.rb
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m2h50m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h//bim n[1m/[0m[0m ./bin[1C[1C[1C[1C/ra
+[J[31;40mrails[0m*  [J[31;40mrake[0m* [J[A[0m[27m[24m[2C./bin/ra[K[62C[1A[37m2h50m[00m [33m⚑ [37m◒  [01;31m[00m[1B[73D ke  db:migrate[?1l>[?2004l
+[J]2;./bin/rake db:migrate]1;./bin/rakeRunning via Spring preloader in process 18523
+== 20170222204319 AddFinishedAtToBooks: migrating =============================
+-- add_column(:books, :finished_at, :datetime)
+   -> 0.0131s
+== 20170222204319 AddFinishedAtToBooks: migrated (0.0132s) ====================
+
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[70C[1A[37m2h51m[00m [33m⚑ [37m◒  [01;31m[00m[1B[81D[?1h=[?2004h./bin/rake db:migrate          [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 18596
+Run options: --seed 129
+
+# Running:
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:10)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+NameError: undefined local variable or method `response_body' for #<ListingFinishedBooksTest:0x000000037f0cd0>
+Did you mean?  respond_to?
+    test/integration/listing_finished_books_test.rb:15:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:9
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:19)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+NameError: undefined local variable or method `response_body' for #<ListingFinishedBooksTest:0x00000005f11d00>
+Did you mean?  respond_to?
+    test/integration/listing_finished_books_test.rb:24:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:18
+
+[38;5;198m.[0m[38;5;199m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.595013s, 6.7225 runs/s, 16.8063 assertions/s.
+
+4 runs, 10 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h51m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h./bin/rake [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 18857
+Run options: --seed 14421
+
+# Running:
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:19)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+NameError: undefined local variable or method `response_body' for #<ListingFinishedBooksTest:0x000000035d4f00>
+Did you mean?  respond_to?
+    test/integration/listing_finished_books_test.rb:24:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:18
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:10)
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+NameError: undefined local variable or method `response_body' for #<ListingFinishedBooksTest:0x000000014b71b0>
+Did you mean?  respond_to?
+    test/integration/listing_finished_books_test.rb:15:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:9
+
+[38;5;198m.[0m[38;5;199m.[0m
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.539112s, 7.4196 runs/s, 18.5490 assertions/s.
+
+4 runs, 10 assertions, 0 failures, 2 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h52m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h55m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[H[2J[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h55m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D./bin/rake [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 19361
+Run options: --seed 15701
+
+# Running:
+
+[41m[37mE[0m
+
+Error:
+ListingBooksTest#test_listing_books:
+SyntaxError: /home/felipesoares/study/APIReadingList/app/models/book.rb:2: syntax error, unexpected ':', expecting keyword_end
+  scope: :finished, -> { where('finished_at IS NOT NULL') }
+        ^
+    test/integration/listing_books_test.rb:6:in `block in <class:ListingBooksTest>'
+
+bin/rails test test/integration/listing_books_test.rb:10
+
+[41m[37mE[0m
+
+Error:
+ListingBooksTest#test_listing_top_rated_books:
+SyntaxError: /home/felipesoares/study/APIReadingList/app/models/book.rb:2: syntax error, unexpected ':', expecting keyword_end
+  scope: :finished, -> { where('finished_at IS NOT NULL') }
+        ^
+    test/integration/listing_books_test.rb:6:in `block in <class:ListingBooksTest>'
+
+bin/rails test test/integration/listing_books_test.rb:19
+
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_XML:
+SyntaxError: /home/felipesoares/study/APIReadingList/app/models/book.rb:2: syntax error, unexpected ':', expecting keyword_end
+  scope: :finished, -> { where('finished_at IS NOT NULL') }
+        ^
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:18
+
+[41m[37mE[0m
+
+Error:
+Listing[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0mBooksTest#test_lists_finished_books_in_JSON:
+SyntaxError: /home/felipesoares/study/APIReadingList/app/models/book.rb:2: syntax error, unexpected ':', expecting keyword_end
+  scope: :finished, -> { where('finished_at IS NOT NULL') }
+        ^
+    test/integration/listing_finished_books_test.rb:5:in `block in <class:ListingFinishedBooksTest>'
+
+bin/rails test test/integration/listing_finished_books_test.rb:9
+
+
+
+[38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.352997s, 11.3316 runs/s, 0.0000 assertions/s.
+
+4 runs, 0 assertions, 0 failures, 4 errors, 0 skips
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h55m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[?2004l
+[1m[7m%[27m[1m[0m                                                                                    ]2;felipesoares@felipesoares: ~/study/APIReadingList]1;..PIReadingList^L[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h56m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D[?1h=[?2004h[H[2J[0m[27m[24m[J
+[01;34m~/study/APIReadingList[00m  [32mmaster [31m✗[00m[00m 
+[37m▶ [K[69C[1A[37m2h56m[00m [33m⚑ [37m◒  [01;31m⍉[00m[1B[81D./bin/rake [?1l>[?2004l
+]2;./bin/rake]1;./bin/rakeRunning via Spring preloader in process 19554
+Run options: --seed 58678
+
+# Running:
+
+DEPRECATION WARNING: Using positional arguments in integration tests has been deprecated,
+in favor of keyword arguments, and will be removed in Rails 5.1.
+
+Deprecated style:
+get "/profile", { id: 1 }, { "X-Extra-Header" => "123" }
+
+New keyword style:
+get "/profile", params: { id: 1 }, headers: { "X-Extra-Header" => "123" }
+ (called from block in <class:ListingFinishedBooksTest> at /home/felipesoares/study/APIReadingList/test/integration/listing_finished_books_test.rb:10)
+[38;5;154m.[0mDEPRECATION WARNING: Using positional arguments in integration tests has been 

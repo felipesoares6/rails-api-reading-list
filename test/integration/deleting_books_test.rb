@@ -2,7 +2,8 @@ require 'test_helper'
 
 class DeletingBooksTest < ActionDispatch::IntegrationTest
   setup do
-    @book = Book.create!(title: 'Pragmatic Programer')
+    @scifi = Genre.create!(name: 'Science Fiction')
+    @book = @scifi.books.create!(title: 'Pragmatic Programer')
   end
 
   test 'delete books' do
